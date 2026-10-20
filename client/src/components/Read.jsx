@@ -8,7 +8,7 @@ const Read = () => {
   const handleClick = async () => {
     try {
       const getAllData = await axios.get(
-        "http://localhost:5000/emp/getAllEmployee"
+        "https://employee-crud-test.onrender.com/emp/getAllEmployee"
       );
 
       setEmpData(getAllData.data.empData);

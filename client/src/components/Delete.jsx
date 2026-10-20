@@ -17,7 +17,7 @@ const Delete = () => {
 
     try {
       await axios.delete(
-        `http://localhost:5000/emp/removeEmp/${empId}`
+        `https://employee-crud-test.onrender.com/emp/removeEmp/${empId}`
       );
 
       alert("Employee deleted successfully!");

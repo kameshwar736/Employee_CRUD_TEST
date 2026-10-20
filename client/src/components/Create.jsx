@@ -21,7 +21,7 @@ const Create = () => {
 
     try {
       const sendData = await axios.post(
-        "http://localhost:5000/emp/newEmp",
+        "https://employee-crud-test.onrender.com/emp/newEmp",
         empData
       );
 
